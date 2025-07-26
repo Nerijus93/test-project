@@ -63,99 +63,102 @@ body {
   width: 90px;
 }
 
-.item {
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
+/* Statistics page style
+Made by: Nerijus Kmitas 
+Student ID x24170232 */
 
-.color {
-  width: 16px;
-  height: 16px;
-  display: inline-block;
-}
-
-/* Make the info section full width */
-.info {
-  background-color: #f9c468;
-  padding: 60px 40px;
-  /* Padding for better spacing between text and images */
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  box-sizing: border-box;
-}
-
-/* Each row of content text + image */
-.info-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-
-/* Reverse direction for alternating layout */
-.info-row.reverse {
-  flex-direction: row-reverse;
-}
-
-/* Text area */
-.info-text {
-  flex: 1;
-  min-width: 300px;
-  max-width: 600px;
-}
-
-/* Image area */
-.info-image {
-  flex: 1;
-  min-width: 300px;
-  display: flex;
-  justify-content: center;
-}
-
-/* Make image responsive and larger */
-.logo {
-  width: 100%;
-  max-width: 350px;
-  height: auto;
-  border-radius: 10px;
-}
-
-/* Footer adjustment */
-.footer p {
-  font-size: 25px;
-}
-
-.footer {
-  padding: 40px 20px;
-  text-align: center;
-  background-color: #f9c468;
-  font-style: italic;
-}
-
-/* Make bigger space between footer and quiz button */
-.quiz-button {
-  margin-top: 30px;
-
-}
-
-/* Quiz button display and adjustment */
-.quiz-button a {
+/* Background colour */
+.hunger-stats {
   background-color: #f37a1b;
-  color: white; /* letters colour */
-  padding: 20px 80px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 8px;
-  font-size: 16px;
+  text-align: center;
 }
 
-/* Make it change colour when user goes mouse over the button */
-.quiz-button a:hover {
-  background-color: #a44903;
+/* Setting the table over view - text colour, spacing */
+.hunger-stats table {
+  width: 100%;
+  font-size: 20px;
+  color: black;
+  margin-top: 15px;
+
+}
+
+/* Table settings for the text colour, borders, backgrount colour inside the table */
+.hunger-stats table.table td {
+  background-color: #f9c468 !important; /* Used to override Bootstrap background */
+  color: black !important;
+  border: 1px solid white;
+}
+
+/* Interactive slide-section part: text colour, font size, spacing arrangment  */
+.slider-section {
+  background-color: #f37a1b;
+  padding: 30px 20px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+.slider-section .small {
+  font-size: 0.7em;
+  font-weight: normal;
+}
+
+.slider-container {
+  margin-top: 20px;
+}
+
+/* Interactive slide bar settings */
+input[type="range"] {
+  width: 60%;
+  margin: 10px;
+}
+
+#sliderText {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style for the last part of the page "Daily action you could take- from plate to planet" */
+/* Shared Section Style */
+.action {
+  padding: 20px 20px;
+  background-color: #f37a1b;
+  color: black;
+  text-align: center;
+}
+
+/* Grid style used for both text and image rows */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* center the grid */
+}
+
+/* Style for the action cards */
+.card {
+  background-color: #ffe1a0;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style for each image container */
+.picture {
+  background-color: #ffe1a0;
+  padding: 5px 5px;
+  border-radius: 8px;
+}
+
+/* Make image responsive */
+.picture img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
 }
 
 /* Adjustment for "All rights reserved footer" */
