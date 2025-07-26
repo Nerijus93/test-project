@@ -125,6 +125,10 @@ body {
 }
 
 /* Footer adjustment */
+.footer p {
+  font-size: 25px;
+}
+
 .footer {
   padding: 40px 20px;
   text-align: center;
