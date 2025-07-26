@@ -1,0 +1,617 @@
+/* Page 1 style.css 
+Home page and Statistics page
+Made by: Nerijus Kmitas
+Student ID x24170232*/
+
+
+/* Base styling for every page */
+body {
+  font-family: Arial, sans-serif;
+  /* font style */
+  margin: 0;
+  color: #333;
+  /* font colour */
+}
+
+/* Header section */
+.header {
+  background-color: #f9c468;
+  /* background colour */
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  position: relative;
+  /* Required to absolutely position logo */
+  flex-wrap: wrap;
+}
+
+/* Main logo position */
+.header-left {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+}
+
+/* Header text position */
+.header-center {
+  text-align: center;
+}
+
+/* Nav bar position to move from one page to another */
+.header-center h1 {
+  font-size: 28px;
+  margin: 0;
+  color: #5a3200;
+}
+
+/* Adjust nav bar from the top */
+.nav-links {
+  margin-top: 10px;
+}
+
+/* Nav bar text size,colour and spacing*/
+.nav-links a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #5a3200;
+  font-size: 14px;
+}
+
+/* Logo size adjustment */
+.mainLogo {
+  width: 90px;
+}
+
+.item {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.color {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+/* Make the info section full width */
+.info {
+  background-color: #f9c468;
+  padding: 60px 40px;
+  /* Padding for better spacing between text and images */
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  box-sizing: border-box;
+}
+
+/* Each row of content text + image */
+.info-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Reverse direction for alternating layout */
+.info-row.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Text area */
+.info-text {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+/* Image area */
+.info-image {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Make image responsive and larger */
+.logo {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Footer adjustment */
+.footer {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9c468;
+  font-style: italic;
+}
+
+/* Make bigger space between footer and quiz button */
+.quiz-button {
+  margin-top: 20px;
+
+}
+
+/* Quiz button display and adjustment */
+.quiz-button a {
+  background-color: #f37a1b;
+  color: white;
+  /* letters colour */
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Make it change colour when user goes mouse over the button */
+.quiz-button a:hover {
+  background-color: #a44903;
+}
+
+/* Adjustment for "All rights reserved footer" */
+#footer {
+  background-color: white;
+  padding: 20px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Quiz page style
+Made by: Mateus Silva De Oliveira 
+Student ID: x23316748 */
+
+.quiz {
+  text-align: center;
+}
+
+.quiz h1 {
+  font-size: 25px;
+}
+
+.questionBlock {
+  border: 1px solid #ffe1a0;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  background-color: #e8a025;
+  text-align: left;
+}
+
+.questionText {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 1.25rem;
+}
+
+.optionsTable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+}
+
+.optionsTable td {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #ffe1a0;
+  transition: background-color 0.2s ease-in-out;
+  text-align: left;
+}
+
+
+.optionsTable label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 1.1rem;
+  color: #4a5568;
+}
+
+.BTNBlock {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#submitBTN {
+  background-color: #f37a1b;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-style: italic;
+}
+
+#submitBTN:hover {
+  background-color: #a44903;
+}
+
+
+
+/* Page 3 style.css 
+Volunteer Registration Form
+Made by: Maria Eduarda Berti
+Student ID x23351080 */
+
+.text-image1 {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px;
+  background-color: #eae5dc;
+}
+
+.image1 {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.text1 {
+  max-width: 500px;
+  flex: 1;
+}
+
+.text1 h2 {
+  font-size: 22px;
+  color: #5a3200;
+}
+
+.text1 p {
+  line-height: 1.6;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Food Buttons */
+.food-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: nowrap; /* force buttons to stay on one line */
+}
+
+.foods {
+  white-space: nowrap;
+  padding: 10px 20px;
+  border: none;
+  background-color: #f39c12;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.foods:hover {
+  background-color: #f39c12;
+  color: white;
+}
+
+/* Choose a Food Section */
+#choose-a-food {
+  margin: 40px 0;
+  text-align: center;
+  font-size: 25px;
+  color: #5a3200;
+}
+
+/* Simulate Button */
+#simulate {
+  display: block;
+  margin: 20px auto;
+  background-color: #f39c12;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#simulate:hover {
+  background-color: #f37a1b;
+  color: white;
+}
+
+/* Did You Know Box */
+.facts {
+  padding: 20px;
+  border-radius: 8px;
+  margin: 30px auto;
+  max-width: 90%;
+  color: black;
+  font-size: 20px;
+  background-color: #f9c468;
+}
+
+/* Food Result */
+.food-result {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: #5a3200;
+  background-color: #fdf1df;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Video Section */
+.video {
+  max-width: 800px;
+  margin: 90px auto 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.video video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.video-text p, .video-text h5 {
+  text-align: center;
+}
+
+/* Statistics page style
+Made by: Nerijus Kmitas 
+Student ID x24170232 */
+
+/* Background colour */
+.hunger-stats {
+  background-color: #f37a1b;
+  text-align: center;
+}
+
+/* Setting the table over view - text colour, spacing */
+.hunger-stats table {
+  width: 100%;
+  font-size: 20px;
+  color: black;
+  margin-top: 15px;
+
+}
+
+/* Table settings for the text colour, borders, backgrount colour inside the table */
+.hunger-stats table.table td {
+  background-color: #f9c468 !important; /* Used to override Bootstrap background */
+  color: black !important;
+  border: 1px solid white;
+}
+
+/* Interactive slide-section part: text colour, font size, spacing arrangment  */
+.slider-section {
+  background-color: #f37a1b;
+  padding: 30px 20px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+.slider-section .small {
+  font-size: 0.7em;
+  font-weight: normal;
+}
+
+.slider-container {
+  margin-top: 20px;
+}
+
+/* Interactive slide bar settings */
+input[type="range"] {
+  width: 60%;
+  margin: 10px;
+}
+
+#sliderText {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style for the last part of the page "Daily action you could take- from plate to planet" */
+/* Shared Section Style */
+.action {
+  padding: 20px 20px;
+  background-color: #f37a1b;
+  color: black;
+  text-align: center;
+}
+
+/* Grid style used for both text and image rows */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* center the grid */
+}
+
+/* Style for the action cards */
+.card {
+  background-color: #ffe1a0;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style for each image container */
+.picture {
+  background-color: #ffe1a0;
+  padding: 5px 5px;
+  border-radius: 8px;
+}
+
+/* Make image responsive */
+.picture img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+/* Page 6 style.css 
+Volunteer Registration Form
+Made by: Maria Eduarda Berti
+Student ID x23351080 */
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f4a14e;
+}
+
+.form-container {
+  background-color: white;
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: azure;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-left: 50;
+  color: rgb(0, 0, 0);
+
+}
+
+
+fieldset {
+  margin-top: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: azure;
+  ;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 5px;
+  background-color: azure;
+  ;
+
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#thanksMessage {
+  text-align: center;
+  font-size: 18px;
+  color: green;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+/* To make it work on mobile phone */
+
+@media (max-width: 768px) {
+  .info-row {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .info-text,
+  .info-image {
+    max-width: 100%;
+  }
+
+  .chart-section {
+    gap: 60px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .header-left {
+    position: static;
+    margin-bottom: 10px;
+  }
+
+  .mainLogo {
+    width: 70px;
+  }
+
+  .header-center h1 {
+    font-size: 22px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
+  .text1, .image1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #choose-a-food {
+    font-size: 20px;
+  }
+
+  .food-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
