@@ -1,0 +1,98 @@
+<!-- Causes of Hunger page
+ Made by: Maria Eduarda Tavares
+ Student ID x23351080-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Waste vs Global Hunger</title>
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+  <!-- Header that will be displayed across all page -->
+  <header class="header">
+    <div class="header-left">
+      <!-- Logo was created by Nerijus Kmitas -->
+      <img src="images/logo.png" alt="Fight Hunger Logo" class="mainLogo" />
+    </div>
+    <div class="header-center">
+      <h1>Causes of Hunger</h1>
+      <nav class="nav-links">
+        <a href="index.html">Home Page</a>
+        <a href="indexPage2.html">Quiz Game</a>
+        <a href="indexPage3.html">Causes of Hunger</a>
+        <a href="page4.html">Page4</a>
+        <a href="indexPage5.html">Statistics</a>
+        <a href="indexPage6.html">Volunteer Registration Form</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <div class="text-image1">
+    <img src="images/img3.png" alt="Homeless and Hungry" class="image1" />
+    <div class="text1">
+      <h2 id="title2"> Understanding the impact of wasted food on a global scale</h2>
+      <p>Every year, while over 800 million people face hunger, nearly one-third of all food produced globally is
+        wasted.
+        Bread, rice, vegetables, and meat, essential foods are discarded in amounts that could feed entire populations.
+        Explore below how much of each food is lost and imagine the impact if this waste were reduced. </p>
+    </div>
+  </div>
+
+  <section class="facts">
+    <h3>Did You Know?</h3>
+    <ul>
+      <li>1.3 billion tons of food are wasted every year globally.</li>
+      <li>Food waste costs the global economy approximately €860 billion annually.</li>
+      <li>Reducing food waste could help reduce greenhouse gas emissions by 8%.</li>
+    </ul>
+  </section>
+
+
+  <!-- Buttons to choose a type of food -->
+  <h4 id="choose-a-food">Choose a food below to see how much is thrown away</h4>
+  <div class="food-buttons">
+    <button class="foods" id="bread">Bread</button>
+    <button class="foods" id="rice">Rice </button>
+    <button class="foods" id="meat">Meat</button>
+    <button class="foods" id="vegetables">Vegetables</button>
+  </div>
+
+  <!-- Button to simulate food waste -->
+  <button id="simulate"> Simulate waste</button>
+
+
+  <!-- Area where result will be shown after user selects a food -->
+  <div class="food-result">
+    <p id="selected-food"></p>
+    <p id="wast"></p>
+  </div>
+
+  <!-- div for the video -->
+  <div class="video">
+    <video autoplay muted loop>
+      <source src="video/video.mp4" type="video/mp4">
+    </video>
+    <div class="video-text">
+      <h5>Together, We Can Make a Difference</h5>
+      <p>Your help brings hope to those facing hunger. Every action matters.</p>
+    </div>
+  </div>
+
+  <!-- link for the JavaScript page-->
+  <footer>
+    <h6>&copy; 2025 HungerAwarness All rights reserved</h6>
+  </footer>
+
+  <script src="js/javaScript.js"></script>
+
+</body>
+
+</html>

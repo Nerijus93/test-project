@@ -1,0 +1,104 @@
+<!-- Volunteer Registration Form
+ Made by: Maria Eduarda Tavares
+ Student ID x23351080-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteer Registration Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Header that will be displayed across all page -->
+  <header class="header">
+    <div class="header-left">
+      <!-- Logo was created by Nerijus Kmitas -->
+      <img src="images/logo.png" alt="Fight Hunger Logo" class="mainLogo" />
+    </div>
+
+    <!-- Volunteer registration form -->
+    <div class="header-center">
+      <h1>Volunteer Registration Form</h1>
+      <!-- Navigation links to other pages -->
+      <nav class="nav-links">
+        <a href="index.html">Home Page</a>
+        <a href="indexPage2.html">Quiz Game</a>
+        <a href="indexPage3.html">Causes of Hunger</a>
+        <a href="page4.html">Page4</a>
+        <a href="indexPage5.html">Statistics</a>
+        <a href="indexPage6.html">Volunteer Registration Form</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="form">
+    <form id="volunteerForm">
+      <h2>Registration Form:</h2>
+
+      <!-- Text box for full name -->
+      <label>Full Name:</label>
+      <input type="text" name="name" required>
+
+      <!-- Number box for age -->
+      <label>Age:</label>
+      <input type="number" name="age" min="1" required>
+
+      <!-- Text box for phone number -->
+      <label>Phone Number:</label>
+      <input type="tel" name="phone" required>
+
+      <!-- Text box for email -->
+      <label>Email Address:</label>
+      <input type="email" name="email" required>
+
+      <!-- Text box for address -->
+      <label>Address:</label>
+      <input type="text" name="address" required>
+
+      <!-- Checkboxes for availability times -->
+      <fieldset>
+        <legend>Availability:</legend>
+        <label><input type="checkbox" name="availability" value="Weekdays"> Weekdays</label>
+        <label><input type="checkbox" name="availability" value="Weekends"> Weekends</label>
+        <label><input type="checkbox" name="availability" value="Mornings"> Mornings</label>
+        <label><input type="checkbox" name="availability" value="Afternoons"> Afternoons</label>
+        <label><input type="checkbox" name="availability" value="Evenings"> Evenings</label>
+      </fieldset>
+
+      <!-- Checkboxes for volunteer activities -->
+      <fieldset>
+        <legend>Preferred Activities:</legend>
+        <label><input type="checkbox" name="activities" value="Food collection"> Food collection</label>
+        <label><input type="checkbox" name="activities" value="Food distribution"> Food distribution</label>
+        <label><input type="checkbox" name="activities" value="Organizing events"> Organizing events</label>
+        <label><input type="checkbox" name="activities" value="Administrative support"> Administrative support</label>
+        <label>Other: <input type="text" name="other"></label>
+      </fieldset>
+
+      <!-- Checkbox for consent -->
+      <label><input type="checkbox" name="consent" required> I agree to be contacted regarding volunteering
+        opportunities.</label>
+
+      <!-- Submit button to send the form -->
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  
+  <div id="thanksMessage" style="display: none;">
+    <h2>Thanks for volunteering!</h2>
+  </div>
+
+  <footer>
+    <h6>&copy; 2025 HungerAwarness All rights reserved</h6>
+  </footer>
+
+  <!-- link for the JavaScript page-->
+  <script src="js/javaScript.js"></script>
+
+</body>
+
+</html>
