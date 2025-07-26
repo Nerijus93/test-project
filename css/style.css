@@ -145,8 +145,7 @@ body {
 /* Quiz button display and adjustment */
 .quiz-button a {
   background-color: #f37a1b;
-  color: white;
-  /* letters colour */
+  color: white; /* letters colour */
   padding: 20px 80px;
   text-decoration: none;
   font-weight: bold;
