@@ -79,7 +79,6 @@ Student ID x24170232 */
   font-size: 20px;
   color: black;
   margin-top: 15px;
-
 }
 
 /* Table settings for the text colour, borders, backgrount colour inside the table */
@@ -90,13 +89,6 @@ Student ID x24170232 */
 }
 
 /* Interactive slide-section part: text colour, font size, spacing arrangment  */
-.slider-section {
-  background-color: #f37a1b;
-  padding: 30px 20px;
-  text-align: center;
-  color: black;
-  font-size: 20px;
-}
 
 .slider-section .small {
   font-size: 0.7em;
@@ -135,22 +127,6 @@ input[type="range"] {
   max-width: 1200px;
   margin: 0 auto;
   /* center the grid */
-}
-
-/* Style for the action cards */
-.card {
-  background-color: #ffe1a0;
-  padding: 10px;
-  border-radius: 8px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-/* Style for each image container */
-.picture {
-  background-color: #ffe1a0;
-  padding: 5px 5px;
-  border-radius: 8px;
 }
 
 /* Make image responsive */
