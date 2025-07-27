@@ -1,0 +1,78 @@
+<!-- Calculator
+ Made by: Mateus Silva De Oliveira
+ Student ID x23316748 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header">
+    <div class="header-left">
+      <img src="images/logo.webp" alt="Fight Hunger Logo" class="mainLogo" />
+    </div>
+
+    <div class="header-center">
+      <h1>Every Meal Counts</h1>
+      <nav class="nav-links">
+        <a href="index.html">Home Page</a>
+        <a href="indexPage2.html">Quiz Game</a>
+        <a href="indexPage3.html">Causes of Hunger</a>
+        <a href="indexPage4.html">Calculator</a>
+        <a href="indexPage5.html">Statistics</a>
+        <a href="indexPage6.html">Volunteer Registration Form</a>
+      </nav>
+    </div>
+  </header>
+
+    <main class="action">
+        <section>
+            <p class="text">Every day, each of us may waste small portions of food without realizing the real impact. Leftovers, expired products, uneaten fruits when added up, these small losses turn into significant waste over weeks and months. Beyond the ethical and environmental consequences, food waste also represents money literally thrown away. Use the calculator below to reflect on your habits. Enter how much food you estimate wasting in a typical week, and see a projection of how much food and money could be lost over an entire year. Sometimes, understanding the numbers is the first step toward change.</p>
+        </section>
+
+        <section>
+            <div>
+                <h2>Food Waste Calculator</h2>
+                <p class="text">Select the food item and how many units you waste per week.<br>We'll show you an annual projection and estimated money lost using average prices.</p>
+
+                <div class="text">
+                    <label>Food item:</label>
+                    <select id="foodItem">
+                        <option value="bread">Bread (avg. $1.00 per unit)</option>
+                        <option value="apple">Apple (avg. $0.50 per unit)</option>
+                        <option value="milk">Milk (avg. $3.00 per unit)</option>
+                        <option value="potato">Potato (avg. $0.20 per unit)</option>
+                        <option value="tomato">Tomato (avg. $0.70 per unit)</option>
+                        <option value="broccoli">Broccoli (avg. $2.00 per unit)</option>
+                        <option value="eggs">Eggs (avg. $0.25 per unit)</option>
+                    </select>
+                </div>
+
+                <div class="text">
+                    <label>Quantity wasted per week:</label>
+                    <input type="text" id="quantityWasted">
+                </div>
+
+                <button id="calculateWasteBtn">Calculate Annual Waste</button>
+
+                <div class="text">
+                    <h3>Annual Waste Projection</h3>
+                    <p><span id="annualUnits">0</span> units of <span id="foodItemName"></span> wasted per year.</p>
+                    <p>Estimated money lost: $<span id="estimatedMoney">0.00</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+      <h5>&copy; 2025 HungerAwarness All rights reserved</h5>
+    </footer>
+
+ <script src="js/javaScript.js"></script>   
+</body>
+</html>
